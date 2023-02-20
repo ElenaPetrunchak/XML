@@ -1,1 +1,12 @@
 
+<Title>Поле Ваша почта в форме обратной связи является необязательной</Title>
+<Steps to reproduce>
+  <First step>Зайти на основной сайт</First step>
+  <Second step>Внести данные в поле Ваше имя</Second step>
+  <Third step>Внести данные в поле Выберите тур</Third step>
+  <Fourth step>Нажать на кнопку Отправить</Fourth step>
+ </Steps to reproduce>
+  
+  <Actual Result>Запрос успешно отправляется и пользователь видит сообщение - 'Спасибо,Данные успешно отправлены'</Actual Result>
+  <Expected Result>Пользователь видит ошибку 'Укажите, пожалуйста, корректный email' и поле email подсвечивается красным цветом</Expected Result>
+  <Environment details>Windows 10,  Google chrome Версия 109.0.5414.120</Environment details>
